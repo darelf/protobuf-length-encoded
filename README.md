@@ -20,3 +20,5 @@ it's fine.
 If you have ideas feel free to leave an issue. I'm sure the code could use
 some optimization, and better tests.
 
+Darel Finkbeiner
+
