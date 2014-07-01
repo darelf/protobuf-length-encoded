@@ -9,6 +9,8 @@
     
     ... pipe away! ...
 
+Uses the very nice [protocol-buffers](http://npmjs.org/package/protocol-buffers) library.
+
 I needed to either delimit or length encode protocol buffers since I would
 be sending them over network sockets and couldn't guarantee order or chunking.
 
