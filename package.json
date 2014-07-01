@@ -1,0 +1,16 @@
+{
+  "name": "protobuf-length-encoded",
+  "version": "0.0.1",
+  "description": "Stream transform to encode and decode JSON as protobuf with length-prefixes.",
+  "dependencies": {
+    "protocol-buffers": "^1.0.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "tape": "^2.13.3"
+  },
+  "license": "MIT",
+  "author": "Darel Finkbeiner"
+}
