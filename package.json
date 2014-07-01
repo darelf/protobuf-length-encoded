@@ -12,5 +12,10 @@
     "tape": "^2.13.3"
   },
   "license": "MIT",
-  "author": "Darel Finkbeiner"
+  "author": "Darel Finkbeiner",
+  "homepage": "https://github.com/darelf/protobuf-length-encoded",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darelf/protobuf-length-encoded.git"
+  }
 }
