@@ -8,7 +8,15 @@
     var encoderStream = proto.Encoder(schema)
     var decoderStream = proto.Decoder(schema)
     
-    ... pipe away! ...
+    ... grab your socket stream or whatever ...
+    encoderStream.pipe(stream).pipe(decoderStream)
+    .. Listen for incoming decoded messages ..
+    decoderStream.on('data', function(data) {
+      .. process yo data ..
+    })
+    .. Write out your data using the encoder ..
+    encoderStream.write(JSON.stringify({msg: 'This is a message'}))
+    
 
 Uses the very nice [protocol-buffers](http://npmjs.org/package/protocol-buffers) library.
 
