@@ -2,6 +2,7 @@
 
     npm install protobuf-length-encoded --save
 [![build status](http://img.shields.io/travis/darelf/protobuf-length-encoded.svg?style=flat)](http://travis-ci.org/darelf/protobuf-length-encoded)
+[![NPM version](http://img.shields.io/npm/v/protobuf-length-encoded.svg?style=flat)](http://npmjs.org/package/protobuf-length-encoded)
     
     var proto = require('protobuf-length-encoded')
     var schema = [{ "name": "msg", "type": "string" }]

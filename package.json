@@ -1,6 +1,6 @@
 {
   "name": "protobuf-length-encoded",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Stream transform to encode and decode JSON as protobuf with length-prefixes.",
   "dependencies": {
     "protocol-buffers": "^1.0.0"
